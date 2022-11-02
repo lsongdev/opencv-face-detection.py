@@ -5,8 +5,8 @@ import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # To capture video from webcam.
-cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture("rtsp://admin:lsong940@192.168.8.22/stream1")
+cap = cv2.VideoCapture(0) # FaceTime Camera
+# cap = cv2.VideoCapture("rtsp://admin:lsong940@192.168.8.22/stream1")
 
 # # Read the input image
 # img = cv2.imread('test.jpg')
