@@ -10,7 +10,7 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 cap = cv2.VideoCapture(0)  # FaceTime Camera
 # To use a video file as input
 # cap = cv2.VideoCapture('filename.mp4')
-# cap = cv2.VideoCapture("rtsp://admin:lsong940@192.168.8.22/stream1")
+# cap = cv2.VideoCapture("rtsp://admin:xxxx@192.168.8.22/stream1")
 
 # # Read the input image
 # img = cv2.imread('test.jpg')
