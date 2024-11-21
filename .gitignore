@@ -1,2 +1,5 @@
 
 *.avi
+
+.venv/
+models/
